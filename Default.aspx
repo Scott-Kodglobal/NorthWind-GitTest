@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <script>        alert('HI');</script>
+    <script>alert('HI');</script>
+    There are many way to work in asp.net
+    best way is to work with three tire architechture
     </div>
     </form>
 </body>
