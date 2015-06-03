@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -9,9 +9,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    <script>prompt('This is from FrontEnd');</script>
-    There are many way to work in asp.net<br />
-    best way is to work with three tire architechture
+    <h1>Welcome to Index page</h1>
     </div>
     </form>
 </body>
