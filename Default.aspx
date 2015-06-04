@@ -7,6 +7,7 @@
     <title></title>
 </head>
 <body>
+    <asp:TextBox ID="TextBox1" runat="server" ontextchanged="TextBox1_TextChanged"></asp:TextBox>
     <form id="form1" runat="server">
     <div>
     <script>prompt('This is from FrontEnd');</script>
