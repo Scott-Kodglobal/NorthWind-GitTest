@@ -7,13 +7,16 @@
     <title></title>
 </head>
 <body>
-    <asp:TextBox ID="TextBox1" runat="server" ontextchanged="TextBox1_TextChanged"></asp:TextBox>
+
     <form id="form1" runat="server">
     <div>
     <script>prompt('This is from FrontEnd');</script>
-    There are many way to work in asp.net<br />
+  <p id="ptag" runat="server"><br />
     best way is to work with three tire architechture
-    <br /> this is only for the new test2 branch
+    <br /> this is only for the new test2 branch</p>
+
+        <asp:TextBox ID="TextBox1" runat="server" TextMode="MultiLine" Rows="15 Columns="10"></asp:TextBox>
+
     </div>
     </form>
 </body>

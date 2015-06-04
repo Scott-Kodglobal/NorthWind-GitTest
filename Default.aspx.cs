@@ -10,9 +10,6 @@ public partial class _Default : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         Response.Write("<script>alert('This is from backend');</script>");
-    }
-    protected void TextBox1_TextChanged(object sender, EventArgs e)
-    {
-
+        TextBox1.Text = ptag.InnerHtml;
     }
 }
